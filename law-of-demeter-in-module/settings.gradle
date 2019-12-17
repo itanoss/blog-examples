@@ -1,0 +1,6 @@
+rootProject.name = 'law-of-demeter-module-example'
+
+include 'bad-library'
+include 'bad-client'
+include 'good-library'
+include 'good-client'

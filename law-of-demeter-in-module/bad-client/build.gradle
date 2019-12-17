@@ -1,0 +1,13 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm'
+}
+
+ext {
+    retrofitVersion = '2.6.2'
+}
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    implementation project(":bad-library")
+
+    implementation "com.squareup.retrofit2:retrofit:${retrofitVersion}" // Without this, compile error will occur
+}
