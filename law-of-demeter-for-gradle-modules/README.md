@@ -1,6 +1,6 @@
-# **Law of Demeter** ([Wikipedia](https://en.wikipedia.org/wiki/Law_of_Demeter)) in modules
+# *Law of Demeter* for Gradle modules
 
-No demo. Look at the code.
+No demo.
 
 ## Modules
 
